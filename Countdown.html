@@ -32,7 +32,7 @@
             font-size: 30px;
             font-weight: bold;
             margin-top: 10px;
-            text-shadow: 0 0 10px cyan;
+            text-shadow: 0 0 10px red;
         }
 
         /* Wave Animation */
@@ -71,7 +71,7 @@
         }
     </style>
 </head>
-<body>
+<body bg color: red>
 
     <div class="container">
         <h1>🎉 Counting Down to Gauri's Birthday! 🎂</h1>
@@ -82,10 +82,11 @@
         <div class="wave"></div>
         <div class="wave"></div>
     </div>
+    
 
     <script>
         function updateCountdown() {
-            const birthdayDate = new Date("April 24, 2025 02:43:00").getTime();
+            const birthdayDate = new Date("April 24, 2025 02:45:00").getTime();
             const now = new Date().getTime();
             const difference = birthdayDate - now;
 
